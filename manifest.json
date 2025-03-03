@@ -13,8 +13,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/Daily_Quest/",
-  "scope": "/Daily_Quest/",
+  "start_url": "/Daily_Quest/index.html?utm_source=homescreen",
+"scope": "/Daily_Quest/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#121212",
