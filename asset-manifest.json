@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Daily_Quest/static/css/main.d4c490b2.css",
+    "main.js": "/Daily_Quest/static/js/main.df3c2635.js",
+    "static/js/453.24f9906f.chunk.js": "/Daily_Quest/static/js/453.24f9906f.chunk.js",
+    "service-worker.js": "/Daily_Quest/service-worker.js",
+    "index.html": "/Daily_Quest/index.html",
+    "main.d4c490b2.css.map": "/Daily_Quest/static/css/main.d4c490b2.css.map",
+    "main.df3c2635.js.map": "/Daily_Quest/static/js/main.df3c2635.js.map",
+    "453.24f9906f.chunk.js.map": "/Daily_Quest/static/js/453.24f9906f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4c490b2.css",
+    "static/js/main.df3c2635.js"
+  ]
+}
