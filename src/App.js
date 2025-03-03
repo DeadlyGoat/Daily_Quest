@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import QuestScreen from './pages/QuestScreen';
+import WorkoutPlan from './pages/WorkoutPlan';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  useEffect(() => {
+    // Request notification permission on app load
+    if ("Notification" in window) {
+      Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+          toast.success("Notifications enabled!");
+        } else {
+          toast.warn("Notifications not enabled.");
+        }
+      });
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<QuestScreen />} />
+        <Route path="/workout" element={<WorkoutPlan />} />
+      </Routes>
+      <ToastContainer position="top-center" autoClose={5000} />
+    </Router>
   );
 }
 
