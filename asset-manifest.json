@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Daily_Quest/static/css/main.d4c490b2.css",
-    "main.js": "/Daily_Quest/static/js/main.e7f0b3e4.js",
+    "main.js": "/Daily_Quest/static/js/main.c4b8942a.js",
     "static/js/453.24f9906f.chunk.js": "/Daily_Quest/static/js/453.24f9906f.chunk.js",
     "index.html": "/Daily_Quest/index.html",
     "main.d4c490b2.css.map": "/Daily_Quest/static/css/main.d4c490b2.css.map",
-    "main.e7f0b3e4.js.map": "/Daily_Quest/static/js/main.e7f0b3e4.js.map",
+    "main.c4b8942a.js.map": "/Daily_Quest/static/js/main.c4b8942a.js.map",
     "453.24f9906f.chunk.js.map": "/Daily_Quest/static/js/453.24f9906f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4c490b2.css",
-    "static/js/main.e7f0b3e4.js"
+    "static/js/main.c4b8942a.js"
   ]
 }
