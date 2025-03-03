@@ -3,29 +3,30 @@
   "name": "Manhwa Quest - The Ultimate Ultimatum",
   "icons": [
     {
-      "src": "logo192.png",
+      "src": "/Daily_Quest/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/Daily_Quest/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/Daily_Quest/",
+  "scope": "/Daily_Quest/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#121212",
   "screenshots": [
     {
-      "src": "/screenshots/screenshot1.png",
+      "src": "/Daily_Quest/screenshots/screenshot1.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/screenshots/screenshot2.png",
+      "src": "/Daily_Quest/screenshots/screenshot2.png",
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow"
